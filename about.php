@@ -1,3 +1,7 @@
+<?php
+    include 'sessions.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +28,8 @@
                 </div>
                 <div class="navbar-collapse collapse" id="nav-bar-target">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="login"><a href="login.html">Log In</a></li>
+                        <li class="login"><a href="login.php">Log In</a></li>
+                        <li class="about"><a href="logout.php">Log-out</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,7 +37,7 @@
     </header>
     
  <div class="container">
-    <p class="info">We are a group of three young soon to IT professionals with a passion for hiking, camping, and the great outdoors. We built a web application for your hiking trip and gear planning needs. If you would like to contribute to the project, our github page is <a href="https://github.com/russell190/backpacker">here.</a>  </p>
+    <p class="info">We are a group of three young soon to be IT professionals with a passion for hiking, camping, and the great outdoors. We built a web application for your hiking trip and gear planning needs. If you would like to contribute to the project, our github page is <a href="https://github.com/russell190/backpacker">here.</a>  </p>
     
  </div>     
 
